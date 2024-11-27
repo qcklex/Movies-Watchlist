@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html, body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Inter", serif;
+  line-height: 1.3;
+  max-width: 550px;
+
+}
+
+body {
+    background-image: url('assets/THJJRUhNlEc.png');
+    background-repeat: no-repeat;
+    image-resolution: from-image;
+    background-position-x: 50%;
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: bold;
+  
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+h1 {
+    margin-left: 1.625em;
+    margin-top: 3.7em;
+}
+
+h4{
+    margin-top:-2.65em;
+    margin-left: 22em;
+    color: #FFFFFF;
+}
+h4 a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+img {
+    margin-left: 12em;
+    margin-top:9em;
+}
+
+/* Container styling */
+.search-container {
+    margin-top: 4.5em;
+    margin-left: 1.45em;
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+    font-style: bold;
+
+  }
+  
+  .search-bar {
+    align-items: center;
+    background-color: #2E2E2F;   
+    padding: 0.5rem;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .search-bar i {
+    color: #888; /* Lens icon color */
+    margin-right: 8px;
+  }
+  
+  .search-bar input {
+    background-color: #2E2E2F;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 342px; /* Adjust width as needed */
+  }
+  
+  .search-button {
+    background-color: #4B4B4B;
+    color: white;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 120px;
+    padding: 0.62rem;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background-color: #9e9e9e;
+  }
+/* ---------------------------------------------- */
+.movie-search-list {
+    display: flex;    
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 550px;
+    
+  }
+
+
+.movie-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  margin-top: 1em;
+  font-size: 14px;
+  gap: 1.5em;
+  border-bottom: 1px solid #E5E7EB;
+  width: 100%;
+  
+}
+
+.movie-container p {
+  color: #6B7280;
+}
+
+.poster {
+  margin-top: 2em;
+  margin-left: 1em;
+  width: 99px;
+  height: 147.41px;
+  border-radius: 2.32941px;}
+
+
+.movie-header {
+  flex-wrap: nowrap;
+  margin-left: 10em;
+  margin-top: -13.5em;
+}
+
+    .movie-header .rating {
+      color: #6B7280;
+      font-size: 12px;
+      margin-top: -14.4em;
+      margin-left: 16em;
+      
+    }
+
+.movie-details {
+
+  list-style-type: none;
+  margin-top: 3em;
+  margin-left: 7.3em;
+
+}
+
+
+
+
+.plot{
+  margin-top: 0;
+  flex-wrap: wrap;
+
+    }
+/* ----------------------------------------------------- */
+
